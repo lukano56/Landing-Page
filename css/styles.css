@@ -77,14 +77,16 @@ a {
     margin-bottom: 10px;
 }
 
-.info .button {
+.info .button,
+.cta-signup {
     color: #F9FAF8;
     background-color: #3882F6;
     font-size: 18px;
     font-weight: bold;
     padding: 8px 32px;
-    border-radius: 6px;
+    border-radius: 8px;
     border: none;
+    cursor: pointer;
 
 }
 
@@ -148,9 +150,7 @@ a {
     margin: 120px auto;
     display: flex;
     flex-direction: column;
-    max-width: 850px;
-
-   
+    max-width: 850px;  
 }
 
 .quote .quotation {
@@ -166,3 +166,34 @@ a {
     align-self: flex-end;
 }
 
+.cta-section {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.cta-container {
+    margin: 100px 0;
+    padding: 60px 120px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 200px;
+    border-radius: 10px;
+}
+
+.call {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.cta-description {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.cta-signup {
+    border: #F9FAF8 solid 3px;
+}
