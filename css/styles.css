@@ -17,7 +17,8 @@ body {
 
 
 .header,
-.hero {
+.hero,
+.footer {
     background-color: #1F2937;
 }
 
@@ -196,4 +197,16 @@ a {
 
 .cta-signup {
     border: #F9FAF8 solid 3px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.footer-container {
+    margin: 40px 0;
+    color: #E5E7EB;
+    font-size: 18px;
 }
